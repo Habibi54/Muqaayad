@@ -1,0 +1,399 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header img {
+    width: 120px;
+    height: 110px;
+}
+
+.header {
+    background-color: rgb(230, 134, 24);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+   
+}
+
+ul li {
+    display: inline-block;
+    padding: 30px;
+   
+}
+
+ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+ul li a:hover {
+    color: blue;
+}
+
+.icons {
+    font-size: 30px;
+    padding-top: 15px;
+    padding-right: 20px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-left: 100px;
+
+}
+
+.main img {
+    width: 520px;
+    height: 370px;
+    padding-top: 60px;
+    
+}
+
+.mtitle h2 {
+    margin-bottom: 10px;
+}
+
+.mtitle button {
+    margin-top: 10px;
+    background-color: green;
+    width: 100px;
+    height: 30px;
+    border: none;
+    color: aliceblue;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.grid a {
+    color: aliceblue;
+    text-decoration: none;
+
+}
+
+
+.grid a:hover {
+    color: blue;
+}
+
+.mtitle h3 {
+    color: green;
+}
+
+.mtitle {
+    margin-top: 170px;
+}
+
+/* part2 */
+
+.menu {
+    display: grid;
+    grid-template-columns: 300px 300px 300px  300px;
+    gap: 20px;
+   padding: 60px;
+   justify-content: center;
+}
+
+.menu img {
+    width: 140px;
+    height: 120px;
+
+}
+
+
+.grid {
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    padding-bottom:20px;
+ 
+}
+
+.menu button {
+    background-color: orangered;
+    border: none;
+    width: 80px;
+    height: 25px;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.title h6 {
+    text-align: center;
+    padding-top:40px;
+    font-size: 30px;
+}
+
+.title {
+    background-color: rgb(218, 214, 214);
+}
+
+/* part2 */
+
+
+/* part3 */
+.menu2 {
+    display: grid;
+    grid-template-columns: 300px 300px 300px  300px;
+    gap: 20px;
+   padding: 60px;
+   justify-content: center;
+}
+
+.menu2 img {
+    width: 100%;
+    height: 190px;
+   
+
+}
+
+
+.grid2 {
+    background-color: white;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-bottom:20px;
+    width: 100%;
+    height:100%x;
+ 
+}
+
+.menu2 button {
+    background-color: orangered;
+    border: none;
+    width: 80px;
+    height: 25px;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+
+
+.qeybta h6 {
+    text-align: center;
+    padding-top:40px;
+    font-size: 30px;
+}
+
+.qeybta {
+    background-color: rgb(218, 214, 214);
+}
+
+.grid2 a:hover {
+    color: blue;
+}
+
+
+.grid2 a {
+    color: aliceblue;
+    text-decoration: none;
+
+}
+
+
+.gridtext2 {
+    display: flex;
+    padding-left: 60px;
+    padding-top: 20px;
+    padding-right:60px;
+
+}
+
+.gridtext2 h5 {
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+.grid2 img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+
+/* dhamaadka part3  */
+
+.review {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.review h4 {
+    color: green;
+
+}
+
+.part1 {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 260px;
+    justify-content: center;
+    padding-bottom: 50px;
+    gap: 30px;
+    
+}
+
+
+
+
+.people {
+   display: flex;
+
+  
+}
+
+.rating {
+    border: 3px solid;
+    background-color: rgb(240, 178, 108);
+    border-radius: 10px;
+}
+
+.people img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.quote {
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 40px;
+    color: gainsboro;
+    margin-left: 40px;
+
+}
+
+.name {
+    margin-top: 40px;
+    margin-left:10px;
+}
+
+.peopletxt {
+    margin-left: 40px;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.name, .sticker {
+    color: rgb(20, 92, 10);
+    font-size: 21px;
+}
+.name h4{
+    color: black;
+
+}
+
+.about {
+    display: grid;
+    grid-template-columns: 500px 500px ;
+    gap: 90px;
+    justify-content: center;
+ 
+    margin: 160px;
+
+
+}
+
+.about img {
+    width: 700px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.about-title  h5 {
+    font-size: 30px;
+    color: green;
+    margin-bottom: 10px;
+    
+
+   
+}
+
+.about-title p {
+    line-height: 30px;
+    text-align: justify;
+
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: rgb(255, 131, 29);
+
+}
+
+.footxt{
+    font-size: 18px;
+    color: aliceblue;
+}
+
+.footxt h3{
+    font-size:30px;
+    color: black;
+}
+
+.footxt a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.footxt a:hover {
+    color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* review part1 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* aat the end of parat4 */
